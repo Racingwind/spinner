@@ -1,8 +1,8 @@
 const timeout = (word, num) => {
   setTimeout(() => {
     process.stdout.write(word);
-  }, (num)); // it's in milliseconds  
-}
+  }, (num)); // it's in milliseconds
+};
 
 const arr = ["\r|   ", "\r/   ", "\r-   ", "\r\\   "];
 let count = 0;
